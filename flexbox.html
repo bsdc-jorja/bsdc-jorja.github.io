@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container{
+            background-color: rgb(117, 117, 182);
+             display:flex;
+        }
+        .item1 {
+            height: 100px;
+            width: 100px;
+            border: solid 2px rgb(0, 0, 231) ;
+            flex-grow: 1;
+        }
+        .item3 {
+            height: 100px;
+            width: 100px;
+            border: solid 2px rgb(0, 0, 231) ;
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1" style="background-color:pink;"></div>
+        <div class="item3" style="background-color:rgb(172, 84, 99);"></div>
+        <div class="item1" style="background-color:rgb(167, 49, 69);"></div>
+</body>
+</html>
