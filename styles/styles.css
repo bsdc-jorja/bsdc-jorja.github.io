@@ -1,21 +1,26 @@
-h1{color: rgb(255, 255, 255);}
-
-h1{
-    text-align: center;
-}
-
 h1{
     text-decoration-line: underline;
-    margin: 0 0 170px 0;
+    margin: 0px 0 400px 0;
     text-shadow: 5px 0px 5px rgb(39, 39, 39);
+    font-size: 130px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    text-decoration-line: underline;
+    margin: 0px 0 400px 0;
+    text-shadow: 5px 0px 5px rgb(39, 39, 39);
+    font-size: 130px;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 body { 
-    background-image: url("/images/world_background.png");
+    background-image: url("/images/sukura.png!bw700");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100%;
     height: 100vh;
 }
-
