@@ -1,1 +1,0 @@
-# bsdc-jorja.github.io
