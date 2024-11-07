@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    border: palevioletred solid 2px;
+    height: 100%;
+}
+
+body {
+    border: rgb(255, 0, 200) solid 2px;
+}
+
+.container {
+    border: 1px rgb(112, 157, 216) solid 2px;
+}
